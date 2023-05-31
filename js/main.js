@@ -287,7 +287,6 @@ let goingtop = document.querySelector("#top");
 
 var cl = 0;
     function myFunction() {
-        console.log("Hello World!")
             if (cl == 0){
                 
                 zenscroll.intoView(arr[cl]);

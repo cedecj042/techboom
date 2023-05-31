@@ -176,7 +176,7 @@ hr {
 .card {
     transition: all .3s ease-out;
     color: #000;
-    height: 100%
+    height: 100%;
     width:100%;
 }
 
@@ -280,53 +280,78 @@ img {
     position: absolute;
     animation: cloudOne infinite 30s linear;
     animation-delay: -3s;
+    animation-name: cloudOne;
     -webkit-animation-name: cloudOne;
+    animation-play-state: running;
     -webkit-animation-play-state: running;
     -webkit-animation-delay: -3s;
+    animation-duration: 30s;
     -webkit-animation-duration: 30s;
+    animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-fill-mode: running;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
-    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .cloud2 {
     position: absolute;
     animation: cloudTwo infinite 25s linear;
     animation-delay: -3s;
+    animation-name: cloudTwo;
     -webkit-animation-name: cloudTwo;
     -webkit-animation-delay: -3s;
+    animation-duration: 25s;
     -webkit-animation-duration: 25s;
+    animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-fill-mode: running;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
-    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .cloud3 {
     position: absolute;
     animation: cloudThree infinite 15s linear;
     animation-delay: -3s;
+    animation-name: cloudThree;
     -webkit-animation-name: cloudThree;
     -webkit-animation-delay: -3s;
+    animation-duration: 15s;
     -webkit-animation-duration: 15s;
+    animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-fill-mode: running;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
-    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 .cloud4 {
     position: absolute;
     animation: cloudFour infinite 30s linear;
     animation-delay: -3s;
+    animation-name: cloudFour;
     -webkit-animation-name: cloudFour;
     -webkit-animation-delay: -3s;
+    animation-duration: 30s;
     -webkit-animation-duration: 30s;
+    animation-timing-function: linear;
     -webkit-animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-fill-mode: running;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: running;
-    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes cloudOne {
@@ -578,6 +603,7 @@ textarea {
         text-align: center;
         text-decoration-style: none;
         color: #fff;
+        transition: .5s;
         -webkit-transition: .5s;
         -moz-transition: .5s;
         -o-transition: .5s
@@ -616,9 +642,8 @@ textarea {
         right: 0;
         margin-top: -30px;
         text-decoration: none;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .162);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .162);
         background: #fff !important;
-        box-shadow: 
     }
     .buttonTop a {
         text-decoration: none;
@@ -671,7 +696,7 @@ textarea {
             font-size: 2.5em
         }
         .aboutUs p {
-            font-size: 1.5em
+            font-size: 1.5em;
             line-height:20px;
         }
         #aboutUs {
@@ -1066,8 +1091,9 @@ textarea {
             .contactTitle h2 {
                 font-size: 4em;
             }
-                        .miniContact{
+            .miniContact{
             width: 364px;
             height: 260px;
         }
+    }
     }
